@@ -1,0 +1,10 @@
+.image-page{
+    width: 80vw;
+    min-height: 50vh;
+    margin: 10px auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }

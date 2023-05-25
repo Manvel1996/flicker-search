@@ -1,0 +1,13 @@
+.image-search{
+    width: 100%;
+    text-align: center;
+}
+input{
+    padding:5px 10px;
+    width: 70%;
+}
+button{
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 2px;
+}

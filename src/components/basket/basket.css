@@ -1,0 +1,13 @@
+.basket {
+  height: 60px;
+  min-width: 48%;
+  padding: 10px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  opacity: 80%;
+}

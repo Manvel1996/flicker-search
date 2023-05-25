@@ -1,0 +1,38 @@
+.image-board {
+  border: 1px dotted gray;
+  min-height: 200px;
+  min-width: 75vw;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+  margin-block: 20px;
+}
+.baskets-block {
+  width: 100%;
+  margin-block: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.basket-images-block {
+  border: 1px dotted grey;
+  min-height: 180px;
+  width: 100%;
+  padding: 15px;
+}
+.basket-images-title {
+  text-align: center;
+  opacity: 80%;
+}
+.basket-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.basket-img {
+  width: 130px;
+  height: 130px;
+}
