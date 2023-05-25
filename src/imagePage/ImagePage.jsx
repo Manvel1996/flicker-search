@@ -9,6 +9,7 @@ export default function ImagePage() {
   const [images, setImages] = useState([]);
   const [visible, setVisible] = useState(false);
 
+
   function newImages(imgs, title) {
     if (images.length === 0) return setImages([{ title, imgs }]);
     const obj = images.find((el) => el.title === title);
@@ -29,6 +30,7 @@ export default function ImagePage() {
     setImages([...images, { title, imgs }]);
   }
 
+
   function imgGoBasket(title, id) {
     setImages(
       images.map((obj) => {
@@ -43,7 +45,6 @@ export default function ImagePage() {
         return obj;
       })
     );
-
 
     if (images.length === 1 && images[0].imgs.length === 1) {
       return setVisible(true);
