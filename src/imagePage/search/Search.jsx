@@ -50,7 +50,6 @@ export default function Search({ newImages }) {
         visible={visible}
         setVisible={setVisible}
         modalText={modalText}
-        setModalText={setModalText}
       />
     </div>
   );

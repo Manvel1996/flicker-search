@@ -40,7 +40,7 @@ export default function Main({ images, imgGoBasket }) {
       })
     );
     imgGoBasket(title, dndImage.id);
-    dndImage = {};
+    dndImage = {};   
   }
 
   function dndParams(title, src, id) {
@@ -53,12 +53,12 @@ export default function Main({ images, imgGoBasket }) {
     if (openBasketTitle === title) {
       return setOpenBasketTitle(null);
     }
-    
+
     setOpenBasketTitle(title);
     const obj = basketsImages.find((el) => el.title === title);
     if (obj) {
       setInsideBasket(obj.imgs);
-    }else setInsideBasket([])
+    } else setInsideBasket([]);
   }
 
   return (

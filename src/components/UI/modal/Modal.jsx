@@ -1,10 +1,9 @@
 import React from "react";
 import "./Modal.css";
 
-export default function Modal({ modalText, setModalText, visible, setVisible }) {
+export default function Modal({ modalText, visible, setVisible }) {
     function closeModal(){
         setVisible(false)
-         setModalText('')
     }
     return (
       <div
