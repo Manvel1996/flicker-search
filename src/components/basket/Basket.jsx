@@ -11,7 +11,6 @@ export default function Basket({
   function dragLeaveHandler(e) {
     e.target.style.backgroundColor = "blue";
   }
-  console.log("ko");
 
   function dragOverHandler(e) {
     e.preventDefault();
